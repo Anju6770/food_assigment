@@ -69,14 +69,14 @@ class DetailFood extends StatelessWidget {
                               if (added) {
                                 ScaffoldMessenger.of(context).showSnackBar(
                                   SnackBar(
-                                    content: Text('Book has been added'),
+                                    content: Text('Products has been added'),
                                   ),
                                 );
                               } else {
                                 ScaffoldMessenger.of(context).showSnackBar(
                                   SnackBar(
                                     content:
-                                        Text('Book has already been added'),
+                                        Text('Products has already been added'),
                                   ),
                                 );
                               }

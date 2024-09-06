@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      initialRoute: '/buttom',
+      initialRoute: '/splash',
       getPages: [
         GetPage(name: '/splash', page:()=>Splash()),
         GetPage(name: '/signup', page: () => signup(), binding: BindingClass(),),
